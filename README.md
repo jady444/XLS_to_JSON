@@ -41,7 +41,8 @@ zip <file_name>.zip .        # It will zip all the content of the folder.
 Download that zip file in the local system.
 
 Create the S3 bucket naming it "sourceexceldata" and upload the excel and zip file to it.
-------------------------------------------------------------------------
+
+
 
 Now we will use the AWS Lambda service to create the Lambda function.
 
