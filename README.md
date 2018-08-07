@@ -25,7 +25,7 @@ sudo python3 get-pip.py                          # Install pip.
 Now we will install xlrd and boto3 modules in our project directory.
 
 cd ~/<project directory>
-pip install xlrd -t .		# Install xlrd module
+pip install xlrd -t .		  # Install xlrd module
 pip install boto3 -t .		# Install boto3 module
 
 Now we can see a number of modules in your project's root folder.
