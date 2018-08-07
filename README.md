@@ -14,10 +14,15 @@ IDE's default environment will be of Amazon Linux.
 By default Python 2.7 will be installed in it. So the first thing, to change the default Python version to Python3 and install PIP for Python3 version.
 
 which python                          # If the 'python' command is aliased to something like '/usr/bin/python27', prepare to unalias it.
+
 unalias python                        # If the 'python' command is aliased to something like '/usr/bin/python27', unalias it.
+
 python3 --version                     # Output the current version of Python 3, for example, 'Python 3.6.5'.
+
 alias python=/usr/bin/python36        # Switch back to outputting '/usr/bin/python36' when you run the 'which python' command.
+
 python --version                      # Output the current Python version, for example, 'Python 3.6.5'.
+
 
 curl -O https://bootstrap.pypa.io/get-pip.py     # Get the install script.
 sudo python3 get-pip.py                          # Install pip.
